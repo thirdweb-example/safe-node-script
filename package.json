@@ -1,0 +1,17 @@
+{
+  "name": "node-script",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@thirdweb-dev/chains": "^0.1.13",
+    "@thirdweb-dev/sdk": "^3.10.27",
+    "@thirdweb-dev/wallets": "^1.0.3",
+    "dotenv": "^16.0.3",
+    "ethers": "5"
+  }
+}
