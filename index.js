@@ -35,6 +35,9 @@ config();
   // Initialize thirdweb SDK with Safe wallet
   // (or you can get signer using safe.getSigner())
   const sdk = await ThirdwebSDK.fromWallet(safe, activeChain);
+  console.log(
+    `✨ Safe balance (ETH): ${(await sdk.getBalance(safeAddress)).displayValue}`
+  );
 
   try {
     // Claiming access NFT
